@@ -89,7 +89,7 @@ const Chat = () => {
         } catch ( e )  {
             if (!abortController.signal.aborted) {
                 console.error(result);
-                let errorMessage = "An error occurred. Please try again. If the problem persists, please contact the site administrator.";
+                let errorMessage = "An error occurred. Please try again. If the problem persists, please contact Miller Service Desk.";
                 if (result.error?.message) {
                     errorMessage = result.error.message;
                 }
