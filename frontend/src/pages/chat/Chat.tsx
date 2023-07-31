@@ -173,7 +173,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Start questions</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>How can I help?</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>This assistant is configured to answer your questions</h2>
                             </Stack>
                         ) : (
